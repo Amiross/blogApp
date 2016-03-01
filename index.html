@@ -65,7 +65,7 @@
 
 
 			<!-- Dynamic Content Here -->
-			<ng-view></ng-view>
+			<ng-view class="col-md-8"></ng-view>
 
 			<!-- Blog Sidebar Widgets Column -->
 			<aside class="col-md-4">
@@ -190,8 +190,10 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular-sanitize.min.js"></script>
 	<!-- App -->
 	<script src="app/app.js"></script>
-	<script src="app/PostsCtrl.js"></script>
-	<script src="app/postService.js"></script>
+	<script src="app/posts/controllers/PostsCtrl.js"></script>
+	<script src="app/posts/controllers/postService.js"></script>
+	<script src="app/admin/controllers/admin.js"></script>
+	<script src="app/posts/controllers/FullPostCtrl.js"></script>
 
 </body>
 </html>

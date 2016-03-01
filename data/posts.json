@@ -2,6 +2,7 @@
 	"posts": [
 		{
 			"title": "AngularJS - Controllers",
+		    "urlPath": "AngularJS-Controllers",
 			"author": "Ilan Cohen",
 			"date": "1421186400000",
 			"tags": ["JavaScript", "AngularJS"],
@@ -11,6 +12,7 @@
 		},
 		{
 			"title": "AngularJS - Modules",
+		    "urlPath": "AngularJS-Modules",
 			"author": "Ilan Cohen",
 			"date": "1421186400000",
 			"tags": ["JavaScript", "AngularJS"],
@@ -20,6 +22,7 @@
 		},
 		{
 			"title": "AngularJS - Routes",
+		    "urlPath": "AngularJS-Routes",
 			"author": "Ilan Cohen",
 			"date": "1421186400000",
 			"tags": ["JavaScript", "AngularJS"],
@@ -29,6 +32,7 @@
 		},
 		{
 			"title": "AngularJS - Services",
+		    "urlPath": "AngularJS-Services",
 			"author": "Ilan Cohen",
 			"date": "1421186400000",
 			"tags": ["JavaScript", "AngularJS"],
@@ -38,6 +42,7 @@
 		},
 		{
 			"title": "Grunt - Custom Tasks",
+		    "urlPath": "Grunt-Custom Tasks",
 			"author": "Alex Ilyaev",
 			"date": "1418162400000",
 			"tags": ["Grunt", "Tools"],
@@ -47,6 +52,7 @@
 		},
 		{
 			"title": "Grunt - Intro",
+		    "urlPath": "Grunt-Intro",
 			"author": "Alex Ilyaev",
 			"date": "1418162400000",
 			"tags": ["Grunt", "Tools"],
@@ -56,7 +62,8 @@
 		},
 		{
 			"title": "jQuery - Events, AJAX",
-			"author": "Amit Choukroun",
+		    "urlPath": "jQuery-Events,AJAX",
+		    "author": "Amit Choukroun",
 			"date": "1417557600000",
 			"tags": ["JavaScript", "jQuery"],
 			"mdPath": "data/posts/md/jQuery - Events, AJAX.md",
@@ -64,8 +71,9 @@
 			"description": "jQuery Event methods trigger or attach a function to an event handler for the selected elements. These methods are used to register behaviors to take effect when the user interacts with the browser, and to further manipulate those registered behaviors."
 		},
 		{
-			"title": "jQuery - Selectors, DOM",
-			"author": "Amit Choukroun",
+			"title": "jQuery-Selectors, DOM",
+		    "urlPath": "jQuery-Selectors,DOM",
+		    "author": "Amit Choukroun",
 			"date": "1417384800000",
 			"tags": ["JavaScript", "jQuery"],
 			"mdPath": "data/posts/md/jQuery - Selectors, DOM.md",

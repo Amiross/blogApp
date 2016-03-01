@@ -1,0 +1,51 @@
+<main>
+    <!-- Blog Entries Column -->
+
+        <h2 class="page-header" ng-hide="!posts.length">Showing {{posts.length}} posts</h2>
+        <h2 class="page-header" ng-show="!posts.length">No posts found</h2>
+        <article>
+            <div ng-repeat="post in posts | orderBy: '-date' | limitTo: 3:postsPage" >
+                <header>
+                    <h2>
+                        <a href="#/post/{{post.urlPath}}">{{post.title}}</a>
+                    </h2>
+
+                    <p>
+                        <small class="glyphicon glyphicon-user"></small>
+                        by <a href="#">{{post.author}}</a>
+                    </p>
+                    <p>
+                        <small class="glyphicon glyphicon-time"></small>
+                        {{post.date | date}}
+                    </p>
+                </header>
+
+                <!-- Post Description -->
+                <p>{{post.description}}</p>
+                <br>
+
+                <footer class="clearfix">
+                    <p class="pull-left">
+                        <b>Tags:&nbsp;</b>
+							<span ng-repeat="tag in post.tags">
+								<a href="#" class="label label-default">{{tag }}</a>
+							</span>
+                    </p>
+
+                    <a class="btn btn-primary pull-right" href="#/post/{{post.urlPath}}">
+                        Read More <i class="glyphicon glyphicon-chevron-right"></i>
+                    </a>
+                </footer>
+                <hr>
+            </div>
+        </article>
+    <!-- Pager -->
+    <ul class="pager">
+        <li class="previous">
+            <a href="#/posts/{{postsPage+3}}">&larr; Older</a>
+        </li>
+        <li class="next">
+            <a href="#">Newer &rarr;</a>
+        </li>
+    </ul>
+</main>

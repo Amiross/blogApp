@@ -13,12 +13,22 @@
 				templateUrl: 'app/posts/templates/posts.html',
 				controller: 'PostsCtrl'
 			})
-			/*
+
 			 .when('/admin', {
 			 templateUrl: 'app/admin/templates/admin.html',
-			 controller: 'AdminCtrl'
+			 controller: 'admin'
 			 })
-			 */
+
+			.when('/post/:id', {
+				templateUrl: 'app/posts/templates/FullPost.html',
+				controller: 'FullPostCtrl'
+			})
+
+			.when('/posts/:page', {
+				templateUrl: 'app/posts/templates/posts.html',
+				controller: 'PostsCtrl'
+			})
+
 			.otherwise({
 				redirectTo: '/'
 			});
