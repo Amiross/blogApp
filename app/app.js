@@ -10,7 +10,7 @@
 			})
 
 			.when('/posts', {
-				templateUrl: 'posts.html',
+				templateUrl: 'app/posts/templates/posts.html',
 				controller: 'PostsCtrl'
 			})
 			/*
