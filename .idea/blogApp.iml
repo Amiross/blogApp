@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="angular-route" level="application" />
     <orderEntry type="library" name="blogApp node_modules" level="project" />
+    <orderEntry type="library" name="Node.js v5.3.0 Core Modules" level="application" />
   </component>
 </module>
